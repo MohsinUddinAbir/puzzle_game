@@ -1,0 +1,101 @@
+.board {
+    background: lightblue;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid salmon;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 5px solid black;
+}
+
+.board table {
+    border-collapse: collapse;
+}
+
+.board table td {
+    width: 40px;
+    height: 40px;
+}
+
+.main-board table td {
+    border: 1px solid #69696973;
+    cursor: pointer;
+}
+
+.board table td[colspan], table td.no-color {
+    border: none;
+    cursor: default;
+}
+
+.main-board {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+}
+
+.green-pice {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.purple-pice {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+.pink-pice {
+    position: absolute;
+    top: 10px;
+    left: 210px;
+}
+
+.blue-pice {
+    position: absolute;
+    top: 10px;
+    right: 210px;
+}
+
+.aqua-pice {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+.yellow-pice {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.color {
+    cursor: pointer;
+}
+
+.green-pice .color {
+    background-color: #08a53c;
+}
+
+.pink-pice .color {
+    background-color: #b92d5c;
+}
+
+.blue-pice .color {
+    background-color: #1f7cbb;
+}
+
+.yellow-pice .color {
+    background-color: #f79401;
+}
+
+.purple-pice .color {
+    background-color: #b90fb9;
+}
+
+.aqua-pice .color {
+    background-color: #00c0b6;
+}
