@@ -5,3 +5,8 @@ body {
 .app {
   text-align: center;
 }
+
+.title {
+  color: #ff1504;
+  text-shadow: 0 0 10px #ff523f;
+}
