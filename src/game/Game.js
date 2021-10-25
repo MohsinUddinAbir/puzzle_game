@@ -84,6 +84,10 @@ class Game extends Component {
                         this.resetGame()
                     }
                 });
+                setTimeout(() => {
+                    const event = new Event('game-win');
+                    document.dispatchEvent(event);
+                }, 500)
             }, 500)
         }
     }
@@ -542,7 +546,6 @@ class Game extends Component {
                 this.winCheck()
         }
     }
-
 }
 
 export default Game;
