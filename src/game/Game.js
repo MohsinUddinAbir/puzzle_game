@@ -87,7 +87,7 @@ class Game extends Component {
                 setTimeout(() => {
                     const event = new Event('game-win');
                     document.dispatchEvent(event);
-                }, 500)
+                }, 800)
             }, 500)
         }
     }
